@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>repaso</title>
+    <title>FORMULARIO</title>
 </head>
-
 <body>
-<form action="#" method="" enctype="multipart/from-data">
+    <header>
+        <h1>Mi primer formulario</h1>
+    </header>
+    <!-- Etiquetas de formulario -->
+    <form action="#" method="" enctype="multipart/from-data">
 
-</form>
+        <!-- cajas de texto -->
 
+        <label for="name">Nombre</label>
+        <input id="name" type="text" placeholder="Ingrese nombre" required>
+        <br>
+        <br>
+        <label for="ap">Apellido</label>
+        <input id="ap" type="text" placeholder="Ingrese apellido" required>
+        <br>
+        <br>
+        <label for="em">Email</label>
+        <input id="em" type="email" placeholder="Ingrese Email" requierd>
+        <br>
+        <br>
+        <label for="pass">Contraseña</label>
+        <input id="pass" type="password" placeholder="Ingrese contraseña" required>
+        <br>
+        <br>
+        <label>Genero</label>
+        <input type="radio" name="sexo" value="1" checked> M
+        <input type="radio" name="sexo" value="2"> F
+        <br>
+        <br>
+        <label>Interes</label>
+        <input id="uno" type="checkbox" value="0">
+        <label for="uno">Comida</label>
+        <input id="dos" type="checkbox" value="1">
+        <label for="dos">Musica</label>
+        <input id="tres" type="checkbox" value="2">
+        <label for="tres">Lectura</label>
+        <br>
+        <br>
+        <label for="dir">Direccion</label>
+        <textarea id="dir"></textarea>
+        <br>
+        <br>
+        <label>Seleccione cafe</label>
+        <select name="" required>
+            <option value="1">Cafe uno</option>
+            <option selected value="2">Cafe dos</option>
+            <option value="3">Cafe tres</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <!-- botones de acciones -->
+        <button type="button"> Accion </button>
+        <button type="reset"> Limpiar </button>
+        <button type="submit"> Registrarse </button>
+    </form>
 </body>
-
 </html>
