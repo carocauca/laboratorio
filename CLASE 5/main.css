@@ -1,0 +1,19 @@
+*{
+
+}
+header{
+    background-color: #6e59a1;
+
+}
+.cuadro1{
+    background-color: aquamarine;
+    margin-bottom: 400px;
+    padding-bottom: 400px;
+    box-sizing: content-box;
+}
+.cuadro2{
+    background-color: aquamarine;
+    margin-bottom: 400px;
+    padding-bottom: 400px;
+    box-sizing: content-box;
+}
