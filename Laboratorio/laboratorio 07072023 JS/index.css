@@ -1,0 +1,30 @@
+*{
+ box-sizing: border-box;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteiner1{
+    border: 1px solid black;
+    width: 100vw;
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+.conteiner2{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    height: 50vh;
+    background-color: blueviolet;
+}
+
+.conteiner3{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    height: 50vh;
+    background-color: blueviolet;
+}
+
